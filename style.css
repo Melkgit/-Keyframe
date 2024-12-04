@@ -1,0 +1,180 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(imagens/fundo-body.png);
+    background-size: cover;
+}
+
+/* ESTILAZAÇAO DO SOL */
+.box-sol img {
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    animation:rotate 8s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ESTILIZAÇAO DO MERCURIO */
+
+.box-Mercurio img{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotacaoMercurio 6s infinite linear;
+}
+
+
+@keyframes rotacaoMercurio {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(110px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translate(110px) rotate(360deg);
+    }
+}
+
+/* ESTILIZAÇAO DO VENUS */
+
+.box-Venus img{
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotacaovenus 8s infinite linear;
+}
+
+@keyframes rotacaovenus {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(160px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translate(160px) rotate(360deg);
+    }
+}
+
+ /* ESTILIZAÇAO DA TERRA */
+
+.box-Terra img{
+    width: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotacaoterra 10s infinite linear;
+}
+
+@keyframes rotacaoterra {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(230px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translate(230px) rotate(360deg);
+    }
+}
+
+/* ESTILIZAÇAO DE MARTE */
+
+.box-Marte img{
+    width: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotacaomarte 13s infinite linear;
+}
+
+@keyframes rotacaomarte {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(270px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translate(270px) rotate(360deg);
+    }
+}
+
+/* ESTIZAÇAO DO JUPITER */
+
+.box-Jupiter img{
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotacaojupiter 19s infinite linear;
+}
+
+@keyframes rotacaojupiter {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(350px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translate(350px) rotate(360deg);
+    }
+}
+
+/* ESTILIZAÇAO DO SATURNO */
+
+.box-Saturno img{
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotacaosaturno 17s infinite linear;
+}
+
+@keyframes rotacaosaturno {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(380px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translate(380px) rotate(360deg);
+    }
+}
+
+/* ESTILIZAÇAO DO URANO */
+
+.box-Urano img{
+    width: 85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotacaourano 20s infinite linear;
+}
+
+@keyframes rotacaourano {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(400px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translate(400px) rotate(360deg);
+    }
+}
+
+/* ESTILIZAÇAO DO NETUNO */
+
+.box-Netuno img{
+    width: 97px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotacaonetuno 25s infinite linear;
+}
+
+@keyframes rotacaonetuno {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translate(450px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translate(450px) rotate(360deg);
+    }
+}
